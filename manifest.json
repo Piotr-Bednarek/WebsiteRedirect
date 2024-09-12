@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Website Redirect",
+    "description": "Allows users to specify a URL to redirect from and a URL to redirect to",
+    "version": "1.0",
+    "permissions": ["tabs", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "48": "icon.png"
+        }
+    }
+}
